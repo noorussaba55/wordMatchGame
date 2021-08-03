@@ -22,7 +22,6 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Word Match" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YtV-ec-8tw">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="738"/>
                                         <fontDescription key="fontDescription" name="MuktaMahee-Bold" family="Mukta Mahee" pointSize="50"/>
-                                        <color key="textColor" red="0.46390863519999997" green="0.35199082590000003" blue="0.87334890460000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JAG-Ok-fKn">
@@ -33,7 +32,7 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" name="MuktaMahee-Regular" family="Mukta Mahee" pointSize="40"/>
                                         <state key="normal" title="Play!">
-                                            <color key="titleColor" systemColor="systemIndigoColor"/>
+                                            <color key="titleColor" systemColor="labelColor"/>
                                         </state>
                                         <connections>
                                             <segue destination="BJZ-gj-fPe" kind="presentation" identifier="showGame" modalPresentationStyle="fullScreen" id="c2d-Qh-ZGQ"/>
@@ -79,7 +78,6 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fruit name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5x9-mX-xDk">
                                         <rect key="frame" x="0.0" y="60" width="394" height="254"/>
                                         <fontDescription key="fontDescription" name="MuktaMahee-Bold" family="Mukta Mahee" pointSize="50"/>
-                                        <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jZQ-HZ-JUM">
@@ -100,7 +98,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="S2f-Tv-qPR" secondAttribute="height" id="wnl-nY-ueI"/>
                                                 </constraints>
-                                                <state key="normal" image="banana"/>
+                                                <state key="normal" image="apple"/>
                                                 <connections>
                                                     <action selector="gridButtonTapped:" destination="BJZ-gj-fPe" eventType="touchUpInside" id="nu3-kN-vAx"/>
                                                 </connections>
@@ -110,7 +108,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="tfO-Uz-fsY" secondAttribute="height" id="3J3-2D-AD6"/>
                                                 </constraints>
-                                                <state key="normal" image="blueberry"/>
+                                                <state key="normal" image="apple"/>
                                                 <connections>
                                                     <action selector="gridButtonTapped:" destination="BJZ-gj-fPe" eventType="touchUpInside" id="cX9-k9-otJ"/>
                                                 </connections>
@@ -125,7 +123,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="AKc-CC-HG5" secondAttribute="height" id="mni-bQ-cEe"/>
                                                 </constraints>
-                                                <state key="normal" image="orange"/>
+                                                <state key="normal" image="apple"/>
                                                 <connections>
                                                     <action selector="gridButtonTapped:" destination="BJZ-gj-fPe" eventType="touchUpInside" id="BDe-oP-C4B"/>
                                                 </connections>
@@ -135,7 +133,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Bpz-j6-Z3F" secondAttribute="height" id="gkr-lP-y7g"/>
                                                 </constraints>
-                                                <state key="normal" image="watermelon"/>
+                                                <state key="normal" image="apple"/>
                                                 <connections>
                                                     <action selector="gridButtonTapped:" destination="BJZ-gj-fPe" eventType="touchUpInside" id="4Ot-vd-f3G"/>
                                                 </connections>
@@ -145,7 +143,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="NKq-mf-tkG" secondAttribute="height" id="7JD-lC-ePQ"/>
                                                 </constraints>
-                                                <state key="normal" image="kiwi"/>
+                                                <state key="normal" image="apple"/>
                                                 <connections>
                                                     <action selector="gridButtonTapped:" destination="BJZ-gj-fPe" eventType="touchUpInside" id="1sE-XK-hUe"/>
                                                 </connections>
@@ -160,7 +158,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="JfQ-ae-JmN" secondAttribute="height" id="diR-z9-rKd"/>
                                                 </constraints>
-                                                <state key="normal" image="pomegranate"/>
+                                                <state key="normal" image="apple"/>
                                                 <connections>
                                                     <action selector="gridButtonTapped:" destination="BJZ-gj-fPe" eventType="touchUpInside" id="Px9-3z-KNc"/>
                                                 </connections>
@@ -170,7 +168,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Ab1-J9-w12" secondAttribute="height" id="vO9-19-uo9"/>
                                                 </constraints>
-                                                <state key="normal" image="strawberry"/>
+                                                <state key="normal" image="apple"/>
                                                 <connections>
                                                     <action selector="gridButtonTapped:" destination="BJZ-gj-fPe" eventType="touchUpInside" id="kRr-I0-rgV"/>
                                                 </connections>
@@ -180,7 +178,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="ziw-2t-RwY" secondAttribute="height" id="41G-vJ-xHI"/>
                                                 </constraints>
-                                                <state key="normal" image="grapes"/>
+                                                <state key="normal" image="apple"/>
                                                 <connections>
                                                     <action selector="gridButtonTapped:" destination="BJZ-gj-fPe" eventType="touchUpInside" id="6hj-Uo-JTw"/>
                                                 </connections>
@@ -230,17 +228,15 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="M45-MZ-7gG">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Your Score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nPK-oc-DFw">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Your Score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nPK-oc-DFw">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="66.666666666666671"/>
                                         <fontDescription key="fontDescription" name="MuktaMahee-Bold" family="Mukta Mahee" pointSize="40"/>
-                                        <color key="textColor" red="0.46390863519999997" green="0.35199082590000003" blue="0.87334890460000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gc4-G2-tBf">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gc4-G2-tBf">
                                         <rect key="frame" x="0.0" y="66.666666666666686" width="414" height="671.33333333333326"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="MuktaMahee-Bold" family="Mukta Mahee" pointSize="60"/>
-                                        <color key="textColor" red="0.46390863519999997" green="0.35199082590000003" blue="0.87334890460000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgQ-Rq-cCd">
@@ -251,7 +247,7 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" name="MuktaMahee-Regular" family="Mukta Mahee" pointSize="40"/>
                                         <state key="normal" title="Done!">
-                                            <color key="titleColor" systemColor="systemIndigoColor"/>
+                                            <color key="titleColor" systemColor="labelColor"/>
                                         </state>
                                         <connections>
                                             <segue destination="1mr-sB-uZ0" kind="unwind" animates="NO" unwindAction="unwindToStartScreenWithUnwindSegue:" id="pBV-rD-kwT"/>
@@ -282,19 +278,11 @@
     </scenes>
     <resources>
         <image name="apple" width="1200" height="1200"/>
-        <image name="banana" width="1200" height="1200"/>
-        <image name="blueberry" width="1200" height="1200"/>
-        <image name="grapes" width="1200" height="1200"/>
-        <image name="kiwi" width="1200" height="1200"/>
-        <image name="orange" width="1200" height="1200"/>
-        <image name="pomegranate" width="1200" height="1200"/>
-        <image name="strawberry" width="1200" height="1200"/>
-        <image name="watermelon" width="1200" height="1200"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

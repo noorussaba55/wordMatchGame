@@ -23,6 +23,7 @@ class GameViewController: UIViewController {
 
     var fruitNamesArray:[String]=[]
     var userScore: Int = 0
+    var totalScore: Int = 0
     
     @IBOutlet var userScoreLabel: UILabel!
     @IBOutlet var currentWordLabel: UILabel!
@@ -45,6 +46,7 @@ class GameViewController: UIViewController {
             fruitNamesArray.append(fruit.rawValue)
         }
         fruitNamesArray.shuffle()
+        totalScore = fruitNamesArray.count
     }
     
     func populateImageButtons(){
@@ -106,6 +108,7 @@ class GameViewController: UIViewController {
         // Pass the selected object to the new view controller.
         let destinationVC = segue.destination as? ScoreViewController
         destinationVC?.userScore = userScore
+        destinationVC?.totalScore = totalScore
         
     }
     

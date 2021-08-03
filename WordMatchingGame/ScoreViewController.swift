@@ -14,13 +14,14 @@ class ScoreViewController: UIViewController {
     @IBOutlet var userScoreLabel: UILabel!
     
     var userScore: Int = 0
+    var totalScore: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         print("user final score = \(userScore)")
-        userScoreLabel.text = String(userScore)
+        userScoreLabel.text = String(userScore) + "/" + String(totalScore)
     }
     
 
