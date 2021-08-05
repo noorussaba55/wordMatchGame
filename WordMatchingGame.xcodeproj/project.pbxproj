@@ -60,15 +60,15 @@
 		D4EFCE1126B8F3E500FC481C /* WordMatchingGame */ = {
 			isa = PBXGroup;
 			children = (
+				D4EFCE1B26B8F3E600FC481C /* Assets.xcassets */,
+				D4EFCE2026B8F3E600FC481C /* Info.plist */,
 				D4EFCE1226B8F3E500FC481C /* AppDelegate.swift */,
 				D4EFCE1426B8F3E500FC481C /* SceneDelegate.swift */,
-				D4EFCE1626B8F3E500FC481C /* ViewController.swift */,
+				D4EFCE1D26B8F3E600FC481C /* LaunchScreen.storyboard */,
 				D4EFCE1826B8F3E500FC481C /* Main.storyboard */,
+				D4EFCE1626B8F3E500FC481C /* ViewController.swift */,
 				D4EFCE2626B9047E00FC481C /* GameViewController.swift */,
 				D4EFCE2826B905F600FC481C /* ScoreViewController.swift */,
-				D4EFCE1B26B8F3E600FC481C /* Assets.xcassets */,
-				D4EFCE1D26B8F3E600FC481C /* LaunchScreen.storyboard */,
-				D4EFCE2026B8F3E600FC481C /* Info.plist */,
 			);
 			path = WordMatchingGame;
 			sourceTree = "<group>";
